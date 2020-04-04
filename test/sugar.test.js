@@ -54,6 +54,7 @@ describe("Object.min", () => {
   });
 });
 
+
 describe("Object.max", () => {
   test("returns the largest number of all values in an object", () => {
     expect(
@@ -90,7 +91,7 @@ describe("Object.clone", () => {
   });
 });
 
-describe("Object.get", () => {
+describe.only("Object.get", () => {
   test("returns the value for the given key", () => {
     expect(
       Object.get(
