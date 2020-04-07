@@ -38,3 +38,4 @@ Implement the following functions using TDD:
 - `some`
 
 Remember that the tests are already written and will help you understand how the functions are intended to be used.
+c

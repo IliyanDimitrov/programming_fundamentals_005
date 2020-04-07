@@ -91,7 +91,7 @@ describe("Object.clone", () => {
   });
 });
 
-describe.only("Object.get", () => {
+describe("Object.get", () => {
   test("returns the value for the given key", () => {
     expect(
       Object.get(
@@ -235,7 +235,7 @@ describe("Object.invert", () => {
   });
 });
 
-describe("Object.addAll", () => {
+describe.only("Object.addAll", () => {
   test("Creates a new object out of all the objects in an array", () => {
     const objects = [{ a: 1 }, { b: 3 }, { c: "foo" }];
 
